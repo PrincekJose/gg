@@ -10,7 +10,7 @@ body{
     margin: 0;
 }
 #first-half{
-    height: 48vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -77,8 +77,8 @@ body{
 
 #second-half{
     margin: 0;
-    padding-top: 8px;
-    height: 42vh;
+    padding-top: 0;
+    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -89,7 +89,7 @@ body{
     margin-top: 0;
     width: 80vh;
     height: 30vh;
-    padding: 1px 3px 0;
+    padding: 30px 3px 0;
     text-align: center;
     border: 1px groove rgb(161, 157, 121);
 }
@@ -147,8 +147,8 @@ footer {
     margin: 0;
     height: 10vh;
     width: 100%;
-    padding-top: 13px;
-    padding-bottom: 2px; 
+    padding-top: 0;
+    padding-bottom: 0; 
     display: inline-block;
     text-align: center;
     position: relative; 
