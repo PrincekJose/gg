@@ -10,7 +10,7 @@ body{
     margin: 0;
 }
 #first-half{
-    height: 50vh;
+    height: 48vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -71,14 +71,14 @@ body{
  #attemptcounter{
     display: inline;
     margin-top: 8px;
-    margin-bottom: 3px;
+    margin-bottom: 2px;
     font-size: 1.5em;
  }
 
 #second-half{
     margin: 0;
     padding-top: 8px;
-    height: 30vh;
+    height: 42vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -89,7 +89,7 @@ body{
     margin-top: 0;
     width: 80vh;
     height: 30vh;
-    padding: 12px 3px 0;
+    padding: 1px 3px 0;
     text-align: center;
     border: 1px groove rgb(161, 157, 121);
 }
@@ -107,7 +107,7 @@ body{
     padding-left: 10px;
 }
 #output{
-    font-size: 4.5vh;
+    font-size: 3.5vh;
     margin-top: 1px;
     margin-bottom: 5px;
 }
