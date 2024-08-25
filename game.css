@@ -10,8 +10,7 @@ body{
     margin: 0;
 }
 #first-half{
-    border: 1px solid tomato;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -72,18 +71,17 @@ body{
  #attemptcounter{
     display: inline;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 4px;
     font-size: 1.5em;
  }
 
 #second-half{
-    border: 1px solid black;
     margin: 0;
     padding-top: 1px;
-    height: 31.6vh;
+    height: 26vh;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     
 }
 #gamegui{
@@ -147,9 +145,8 @@ body{
     background-color: hsl(0, 100%, 70%);
 }
 footer {
-    border: 1px solid blue;
     margin: 0;
-    height: 8vh;
+    height: 3vh;
     width: 100%;
     padding-top: 0;
     padding-bottom: 0; 
