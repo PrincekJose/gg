@@ -10,7 +10,7 @@ body{
     margin: 0;
 }
 #first-half{
-    height: 50vh;
+    height: 47vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -78,7 +78,7 @@ body{
 #second-half{
     margin: 0;
     padding-top: 1px;
-    height: 38vh;
+    height: 41vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -112,11 +112,11 @@ body{
     margin-bottom: 5px;
 }
 #output2{
-    margin: 9px 0 8px 0;
+    margin: 3px 0 0 0;
     font-size: 3.5vh;
 }
 #submit{
-    margin-top: 7px;
+    margin-top: 5px;
     font-size: 1.5em;
     font-family: 'Courier New', Courier, monospace;
     cursor: pointer;
