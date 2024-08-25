@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: rgba(211, 211, 211, 0.226);
+}
+#result{
+    margin: 0;
+}
+#first-half{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+ /*begin card area */
+
+ .card-container {
+    
+    perspective: 1000px; 
+}
+
+.card {
+    margin-bottom: 5px;
+    margin-top: 1vh;
+    width: 25vh;
+    height: 38vh;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d; 
+    
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-front {
+    background-color: #4CAF50; 
+    padding: 8px;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-back {
+    background-color: #2196F3; 
+    color: white;
+    transform: rotateY(180deg); 
+} 
+.card.flipped{
+        transform: rotateY(180deg);
+}
+ 
+ /* end of card area */
+ #attemptcounter{
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-size: 1.5em;
+ }
+
+#second-half{
+    margin: 0;
+    padding-top: 1px;
+    height: 26vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#gamegui{
+
+    margin-top: 0;
+    margin-bottom: 3px;
+    width: 80vh;
+    height: 27vh;
+    padding: 3px 3px 0;
+    text-align: center;
+    border: 1px groove rgb(161, 157, 121);
+}
+#innergame{
+    
+    width: fit-content ;
+    height: 100px ;
+    padding: 1%;
+    margin: auto;
+    text-align: center;
+}
+#myguess{
+    margin: 4px 0;
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+#output{
+    font-size: 3.5vh;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+#output2{
+    margin: 3px 0 0 0;
+    font-size: 3.5vh;
+}
+#submit{
+    margin-top: 5px;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    border: none;
+}
+#submit:hover{
+    border: 1px solid black;
+}
+#submit:active{
+    background-color:hsl(0, 0%, 80%);
+}
+.buttons {
+    margin-top: 7px;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    border: none;
+    transition: background-color 1s,font-size 1s;    
+}
+.buttons:hover{
+    background-color: lightgreen;
+    font-size: 2em;
+}
+.red:hover{
+    background-color: hsl(0, 100%, 70%);
+}
+footer {
+    margin: 0;
+    height: 3vh;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0; 
+    display: inline-block;
+    text-align: center;
+    position: relative; 
+}
+footer p {
+    position: absolute; 
+    bottom: 1px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    margin: 0; 
+}
