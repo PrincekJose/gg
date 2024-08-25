@@ -71,14 +71,14 @@ body{
  #attemptcounter{
     display: inline;
     margin-top: 0;
-    margin-bottom: 1px;
+    margin-bottom: 0;
     font-size: 1.5em;
  }
 
 #second-half{
     margin: 0;
-    padding-top: 0;
-    height: 30vh;
+    padding-top: 10px;
+    height: 28vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -88,7 +88,7 @@ body{
 
     margin-top: 0;
     width: 80vh;
-    height: 30vh;
+    height: 27vh;
     padding: 30px 3px 0;
     text-align: center;
     border: 1px groove rgb(161, 157, 121);
