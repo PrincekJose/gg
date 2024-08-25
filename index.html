@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>  
+        <div id="first-half">
+            <h3 id="result"></h3>
+            <div class="card-container">
+                <div id="card" class="card">
+                    <div class="card-front">
+                        <h5 id="fcardanswer"></h5>
+                    </div>
+                    <div class="card-back">
+                        <h4 id="cardanswer"></h4>
+                    </div>
+                </div>
+            </div>
+            <p id="attemptcounter" style="visibility:hidden">test</p>
+        </div>
+    
+        <div id="second-half">
+            <div id ="gamegui">
+                    <h1 id="output">Number guessing game</h1>
+                <div id="innergame">    
+                    <label for="myguess"></label>
+                    <input type="text" id="myguess" placeholder="enter your guess">
+                    <button id="submit" >check</button>
+                    <h2 id="output2">You ready ??</h2>
+                    <button id="start" class="buttons">Start</button>
+                    <button id="stop" class="buttons red">Quit</button>
+                    <button id="nobtn" class="buttons red">no</button>
+                </div>   
+            </div>
+        </div> 
+        <footer>
+            <p>Copyright © 2024 Prince k jose</p>
+        </footer>   
+    <script src="game.js"></script>
+</body>
+</html>
