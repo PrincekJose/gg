@@ -143,20 +143,3 @@ body{
 .red:hover{
     background-color: hsl(0, 100%, 70%);
 }
-footer {
-    margin: 0;
-    height: 11vh;
-    width: 100%;
-    padding-top: 0;
-    padding-bottom: 0; 
-    display: inline-block;
-    text-align: center;
-    position: relative; 
-}
-footer p {
-    position: absolute; 
-    bottom: 1px; 
-    left: 50%; 
-    transform: translateX(-50%);
-    margin: 0; 
-}
