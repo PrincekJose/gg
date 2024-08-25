@@ -65,7 +65,7 @@ start.onclick = () => {
             result.textContent = "please enter a valid number"
             setTimeout(() => {
                result.textContent =""
-            }, 1000);
+            }, 1700);
             myguess.value = ""
            }
           else if(guess<min || guess>max){
@@ -73,7 +73,7 @@ start.onclick = () => {
             result.textContent = "please read the question!"
             setTimeout(() => {
                result.textContent =""
-            }, 1000);
+            }, 1700);
               myguess.value = ""
            }
            else if(guess<answer){
@@ -83,7 +83,7 @@ start.onclick = () => {
                   result.textContent = "try higher,u are close)"
                   setTimeout(() => {
                      result.textContent =""
-                  }, 1000);
+                  }, 1700);
                   attemptcounter.textContent=`Attempts : ${attempts}` 
                   myguess.value = ""
                 }else{
@@ -91,7 +91,7 @@ start.onclick = () => {
                   result.textContent = "nope,try higher number)"
                   setTimeout(() => {
                      result.textContent =""
-                  }, 1000);
+                  }, 1700);
                   attemptcounter.textContent=`Attempts : ${attempts}` 
                   myguess.value = ""
                 }
@@ -103,7 +103,7 @@ start.onclick = () => {
                 result.textContent = "try lower,u are close"
                 setTimeout(() => {
                    result.textContent =""
-                }, 1000);
+                }, 1700);
                 attemptcounter.textContent=`Attempts : ${attempts}` 
                  myguess.value = ""
                 }else{
@@ -111,7 +111,7 @@ start.onclick = () => {
                   result.textContent = "nope,try lower number.."
                   setTimeout(() => {
                      result.textContent =""
-                  }, 1000);
+                  }, 1700);
                   attemptcounter.textContent=`Attempts : ${attempts}` 
                    myguess.value = ""
                  }
@@ -171,7 +171,7 @@ start.onclick = () => {
             result.textContent=`only one more attempt!!,Guess right or go home⛔`
             setTimeout(() => {
                result.textContent=`only one more attempt!!,Guess right or go home⛔`
-            }, 1000);
+            }, 1700);
            }
            else if(attempts==12 && guess!=answer){
 
