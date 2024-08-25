@@ -10,7 +10,8 @@ body{
     margin: 0;
 }
 #first-half{
-    height: 47vh;
+    border: 1px solid tomato;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -76,9 +77,10 @@ body{
  }
 
 #second-half{
+    border: 1px solid black;
     margin: 0;
     padding-top: 1px;
-    height: 41vh;
+    height: 31.6vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -87,6 +89,7 @@ body{
 #gamegui{
 
     margin-top: 0;
+    margin-bottom: 3px;
     width: 80vh;
     height: 27vh;
     padding: 3px 3px 0;
@@ -144,8 +147,9 @@ body{
     background-color: hsl(0, 100%, 70%);
 }
 footer {
+    border: 1px solid blue;
     margin: 0;
-    height: 11vh;
+    height: 8vh;
     width: 100%;
     padding-top: 0;
     padding-bottom: 0; 
