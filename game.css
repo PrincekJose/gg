@@ -92,7 +92,6 @@ body{
     height: 27vh;
     padding: 3px 3px 0;
     text-align: center;
-    border: 1px groove rgb(161, 157, 121);
 }
 #innergame{
     
@@ -113,7 +112,7 @@ body{
     margin-bottom: 5px;
 }
 #output2{
-    margin: 3px 0 0 0;
+    margin: 3px 0 2px 0;
     font-size: 3.5vh;
 }
 #submit{
@@ -130,7 +129,7 @@ body{
     background-color:hsl(0, 0%, 80%);
 }
 .buttons {
-    margin-top: 7px;
+    margin-top: 10px;
     font-size: 1.5em;
     font-family: 'Courier New', Courier, monospace;
     cursor: pointer;
