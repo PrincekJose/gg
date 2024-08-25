@@ -155,7 +155,7 @@ footer {
 }
 footer p {
     position: absolute; 
-    bottom: 11px; 
+    bottom: 1px; 
     left: 50%; 
     transform: translateX(-50%);
     margin: 0; 
