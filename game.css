@@ -10,7 +10,7 @@ body{
     margin: 0;
 }
 #first-half{
-    height: 50vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -78,7 +78,7 @@ body{
 #second-half{
     margin: 0;
     padding-top: 0;
-    height: 40vh;
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
