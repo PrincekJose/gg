@@ -124,7 +124,7 @@ start.onclick = () => {
                 fcardanswer.textContent=""
                 cardanswer.style.visibility="visible"
                 cardanswer.textContent = answer 
-                output.textContent = `u got it in ${attempts} attempt`
+                output.textContent = `u got it in ${attempts} attempt...`
                 card.classList.add("flipped")
                 running = false
                 result.textContent = `Well done🥳`
