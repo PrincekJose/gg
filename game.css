@@ -104,7 +104,8 @@ body{
 #myguess{
     margin: 4px 0;
     font-size: 1.2em;
-    padding-left: 10px;
+    padding-left: 6px;
+    width:170px ;
 }
 #output{
     font-size: 3.5vh;
@@ -142,4 +143,7 @@ body{
 }
 .red:hover{
     background-color: hsl(0, 100%, 70%);
+}
+footer{
+    text-align: center;
 }
